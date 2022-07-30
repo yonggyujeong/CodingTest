@@ -19,8 +19,10 @@ public class Boj3460 {
                 }
                 cnt ++;
             }
-            System.out.print(cnt);
-            System.out.println();
+            if (n == 1) {
+                System.out.print(cnt);
+                System.out.println();
+            }
         }
     }
 }
