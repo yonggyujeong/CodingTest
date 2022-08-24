@@ -1,16 +1,16 @@
 import java.util.Scanner;
+import java.util.*;
 
 public class Test {
 
     public static void main(String[] args) {
+        List<Integer> list = new LinkedList<>();
+        for(int i = 0; i < 100 ; i++) list.add(i);
+        System.out.println(list);
 
-        Scanner sc = new Scanner(System.in);
-        String date[] = sc.next().split("\\.");
-        int a = Integer.parseInt(date[0]);
-        int b = Integer.parseInt(date[1]);
-        int c = Integer.parseInt(date[2]);
+        int idx = list.indexOf(64);
+        System.out.println(idx);
 
-        System.out.printf("%04d.%02d.%02d", a,b,c);
     }
 
 }

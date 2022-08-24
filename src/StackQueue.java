@@ -1,3 +1,5 @@
+import sun.awt.image.ImageWatched;
+
 import java.util.*;
 
 public class StackQueue {
@@ -46,6 +48,10 @@ public class StackQueue {
         System.out.println(deque);
         deque.pollFirst();
         System.out.println(deque);
+
+        Deque<Character> deuee = new LinkedList<>();
+        stack.isEmpty();
+        
 
     }
 }
